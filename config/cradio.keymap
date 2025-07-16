@@ -112,10 +112,10 @@
         Base {
             display-name = "DEFAULT";
             bindings = <
-&kp Q  &kp W         &kp F         &kp P             &kp G        &kp J      &kp L             &kp U          &kp Y                &kp DOT
-&kp A  &ht LALT S    &ht LCTRL R   &ht LEFT_SHIFT T  &kp D        &kp H      &ht LEFT_SHIFT N  &ht RCTRL E    &ht RALT I           &kp O
-&kp Z  &ht ESCAPE X  &ht K_COPY C  &ht K_PASTE V     &kp B        &kp K      &kp M             &kp BACKSPACE  &ht LEFT_WIN DELETE  &ht SLASH COMMA
-                                   &mo 1             &kp SPACE    &kp ENTER  &mo 2
+&kp Q  &kp W            &kp F         &kp P             &kp G        &kp J      &kp L             &kp U          &kp Y                &kp DOT
+&kp A  &ht RIGHT_ALT S  &ht LCTRL R   &ht LEFT_SHIFT T  &kp D        &kp H      &ht LEFT_SHIFT N  &ht RCTRL E    &ht RALT I           &kp O
+&kp Z  &ht ESCAPE X     &ht K_COPY C  &ht K_PASTE V     &kp B        &kp K      &kp M             &kp BACKSPACE  &ht LEFT_WIN DELETE  &ht SLASH COMMA
+                                      &mo 1             &kp SPACE    &kp ENTER  &mo 2
             >;
         };
 
