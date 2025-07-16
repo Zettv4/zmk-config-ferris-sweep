@@ -132,9 +132,9 @@
         Symbols_frow {
             display-name = "shift symbols + frow";
             bindings = <
-&none         &kp F1  &kp F2   &kp F3   &kp F4     &ht TILDE GRAVE        &ht UNDER MINUS      &ht EQUAL PLUS               &none                          &tog 4
-&kp LEFT_ALT  &kp F5  &kp F6   &kp F7   &kp F8     &ht DOUBLE_QUOTES SQT  &ht COLON SEMICOLON  &ht LEFT_BRACE LEFT_BRACKET  &ht RIGHT_BRACE RIGHT_BRACKET  &kp PRINTSCREEN
-&none         &kp F9  &kp F10  &kp F11  &kp F12    &ht PIPE BACKSLASH     &ht QUESTION SLASH   &kp LESS_THAN                &kp GREATER_THAN               &none
+&none         &kp F1  &kp F2   &kp F3   &kp F4     &ht TILDE GRAVE        &ht UNDER MINUS     &ht EQUAL PLUS               &none                          &tog 4
+&kp LEFT_ALT  &kp F5  &kp F6   &kp F7   &kp F8     &ht DOUBLE_QUOTES SQT  &ht SEMI COLON      &ht LEFT_BRACE LEFT_BRACKET  &ht RIGHT_BRACE RIGHT_BRACKET  &kp PRINTSCREEN
+&none         &kp F9  &kp F10  &kp F11  &kp F12    &ht PIPE BACKSLASH     &ht QUESTION SLASH  &kp LESS_THAN                &kp GREATER_THAN               &none
                                &mo 3    &trans     &kp ENTER              &trans
             >;
         };
