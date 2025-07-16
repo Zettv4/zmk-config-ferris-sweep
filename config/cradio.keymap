@@ -110,7 +110,7 @@
         compatible = "zmk,keymap";
 
         Base {
-            display-name = "DEFAULT";
+            display-name = "colemak ~ personalized";
             bindings = <
 &kp Q  &kp W            &kp F         &kp P             &kp G        &kp J      &kp L             &kp U          &kp Y                &kp DOT
 &kp A  &ht RIGHT_ALT S  &ht LCTRL R   &ht LEFT_SHIFT T  &kp D        &kp H      &ht LEFT_SHIFT N  &ht RCTRL I    &ht RALT E           &kp O
@@ -120,7 +120,7 @@
         };
 
         Arrows_etc {
-            display-name = "Arrows";
+            display-name = "arrows + numbers";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp N5       &kp NUMBER_6  &kp N7   &kp N8          &kp N9  &kp N0
 &none         &none         &kp LEFT_ARROW   &kp RIGHT_ARROW  &none        &none         &kp UP   &kp DOWN        &none   &none
@@ -132,10 +132,10 @@
         Symbols_frow {
             display-name = "shift symbols + frow";
             bindings = <
-&none         &kp F1  &kp F2   &kp F3   &kp F4       &kp GRAVE  &kp MINUS  &kp EQUAL      &none             &tog 4
-&kp LEFT_ALT  &kp F5  &kp F6   &kp F7   &kp F8       &kp APOS   &kp SEMI   &kp LBKT       &kp RBKT          &kp PRINTSCREEN
-&none         &kp F9  &kp F10  &kp F11  &kp F12      &kp BSLH   &kp FSLH   &kp LESS_THAN  &kp GREATER_THAN  &none
-                               &mo 3    &kp LSHFT    &kp ENTER  &trans
+&none         &kp F1  &kp F2   &kp F3   &kp F4     &ht TILDE GRAVE        &ht UNDER MINUS      &ht EQUAL PLUS               &none                          &tog 4
+&kp LEFT_ALT  &kp F5  &kp F6   &kp F7   &kp F8     &ht DOUBLE_QUOTES SQT  &ht COLON SEMICOLON  &ht LEFT_BRACE LEFT_BRACKET  &ht RIGHT_BRACE RIGHT_BRACKET  &kp PRINTSCREEN
+&none         &kp F9  &kp F10  &kp F11  &kp F12    &ht PIPE BACKSLASH     &ht QUESTION SLASH   &kp LESS_THAN                &kp GREATER_THAN               &none
+                               &mo 3    &trans     &kp ENTER              &trans
             >;
         };
 
@@ -148,21 +148,23 @@
             >;
         };
 
-        Gaming {
+        General_gaming {
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3      &kp N4       &none      &none                 &none     &tog 5     &tog 0
 &kp TAB    &kp Q   &kp W   &kp E       &kp R        &none      &kp NON_US_BACKSLASH  &kp UP    &none      &none
 &kp LSHFT  &kp A   &kp S   &kp D       &kp F        &none      &kp LEFT              &kp DOWN  &kp RIGHT  &none
                            &ht LALT C  &kp SPACE    &kp LCTRL  &none
             >;
+
+            label = "mostly helldivers 2";
         };
 
         League {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3     &kp N4       &trans  &trans  &trans  &trans  &tog 0
-&kp Q    &kp W   &kp E   &kp R      &kp T        &trans  &trans  &trans  &trans  &trans
-&kp Z    &kp X   &kp F   &kp D      &kp C        &trans  &trans  &trans  &trans  &trans
-                         &kp LCTRL  &kp SPACE    &trans  &trans
+&ht TAB ESCAPE  &kp N1  &kp N2  &kp N3     &kp N4       &trans  &trans  &trans  &trans  &tog 0
+&kp Q           &kp W   &kp E   &kp R      &kp T        &trans  &trans  &trans  &trans  &trans
+&kp Z           &kp X   &kp F   &kp D      &kp C        &trans  &trans  &trans  &trans  &trans
+                                &kp LCTRL  &kp SPACE    &trans  &trans
             >;
         };
     };
