@@ -112,9 +112,9 @@
         Base {
             display-name = "DEFAULT";
             bindings = <
-&kp Q  &kp W         &kp F         &kp P             &kp G        &kp J      &kp L             &kp U          &kp Y       &kp DOT
-&kp A  &ht LALT S    &ht LCTRL R   &ht LEFT_SHIFT T  &kp D        &kp H      &ht LEFT_SHIFT N  &ht RCTRL E    &ht RALT I  &kp O
-&kp Z  &ht ESCAPE X  &ht K_COPY C  &ht K_PASTE V     &kp B        &kp K      &kp M             &kp BACKSPACE  &kp DELETE  &ht SLASH COMMA
+&kp Q  &kp W         &kp F         &kp P             &kp G        &kp J      &kp L             &kp U          &kp Y                &kp DOT
+&kp A  &ht LALT S    &ht LCTRL R   &ht LEFT_SHIFT T  &kp D        &kp H      &ht LEFT_SHIFT N  &ht RCTRL E    &ht RALT I           &kp O
+&kp Z  &ht ESCAPE X  &ht K_COPY C  &ht K_PASTE V     &kp B        &kp K      &kp M             &kp BACKSPACE  &ht LEFT_WIN DELETE  &ht SLASH COMMA
                                    &mo 1             &kp SPACE    &kp ENTER  &mo 2
             >;
         };
@@ -135,7 +135,7 @@
 &none  &kp F1  &kp F2   &kp F3   &kp F4       &kp GRAVE  &none     &kp MINUS      &kp EQUAL         &tog 4
 &none  &kp F5  &kp F6   &kp F7   &kp F8       &kp APOS   &kp SEMI  &kp LBKT       &kp RBKT          &none
 &none  &kp F9  &kp F10  &kp F11  &kp F12      &kp BSLH   &kp FSLH  &kp LESS_THAN  &kp GREATER_THAN  &none
-                        &none    &kp LSHFT    &kp ENTER  &trans
+                        &mo 3    &kp LSHFT    &kp ENTER  &trans
             >;
         };
 
