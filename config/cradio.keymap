@@ -202,7 +202,7 @@
             bindings = <
 &ht TAB ESCAPE  &kp N1  &kp N2  &kp N3     &kp N4       &trans  &trans  &trans  &trans  &tog 0
 &kp Q           &kp W   &kp E   &kp R      &kp Y        &trans  &trans  &trans  &trans  &trans
-&kp A           &kp S   &kp F   &kp D      &kp C        &trans  &trans  &trans  &trans  &trans
+&kp A           &kp S   &kp F   &kp D      &kp G        &trans  &trans  &trans  &trans  &trans
                                 &kp LCTRL  &kp SPACE    &trans  &trans
             >;
         };
