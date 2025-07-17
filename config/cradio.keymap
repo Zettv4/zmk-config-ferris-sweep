@@ -105,12 +105,6 @@
             layers = <0>;
         };
 
-        Caps_word {
-            bindings = <&sk LEFT_SHIFT>;
-            key-positions = <14 15>;
-            layers = <0>;
-        };
-
         C-item {
             bindings = <&kp C>;
             key-positions = <22 21>;
