@@ -124,7 +124,7 @@
 
         B-recall {
             bindings = <&kp B>;
-            key-positions = <2 1>;
+            key-positions = <20 24>;
             layers = <4>;
         };
 
