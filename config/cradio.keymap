@@ -152,6 +152,17 @@
             key-positions = <4 5>;
             layers = <0>;
         };
+
+        Pg_up {
+            bindings = <&kp PG_UP>;
+            key-positions = <16 17>;
+            layers = <1>;
+        };
+
+        Pg_down {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {
